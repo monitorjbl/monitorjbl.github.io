@@ -1,3 +1,7 @@
+article.home div a, article.home pre a{
+  color: #428bca;
+}
+
 .logo {
   width: 125px;
 }
