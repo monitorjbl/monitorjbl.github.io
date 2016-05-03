@@ -1,5 +1,14 @@
 (function($) {
 
+  var quotes = [
+    'does the needful',
+    'internet superstar',
+    'code monkey',
+    'not a null pointer',
+    'dead beef',
+    'counts from zero'
+  ]
+
  function init() {
     /* Sidebar height set */
     $sidebarStyles = $('.sidebar').attr('style')
@@ -32,7 +41,9 @@
 
     // initial activation
     activateTab();
-  };
+
+    $('#bio').html(quotes[Math.floor(Math.random() * quotes.length)]);
+  }
 
   // run init on document ready
   $(document).ready(init);

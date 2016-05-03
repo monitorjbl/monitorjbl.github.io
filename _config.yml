@@ -3,33 +3,55 @@
 paginate: 10 # pagination based on number of posts
 paginate_path: "page:num"
 exclude: ["README.md"] # files to exclude
-highlighter: pygments
+highlighter: rouge
 markdown: kramdown
 disqus: dbyll
 google_analytics: dbyll
-title: dbyll
+title: monitorjbl
 
 defaults:
   -
     scope:
       path: "" # empty string for all files
     values:
-      title: dbyll
+      title: Stuff
 
-description: Stylish Jekyll Theme
+description: Developer!
 author:
-  name: dbyll
-  email: dbyll@ismaildemirbilek.com
-  github: dbtek
-  twitter: dbtek
-  pinterest: asd123
-  linkedin: asd123
-  bio: Your stylish, minimalist theme!
+  name: monitorjbl
+  email: monitorjbl@gmail.com
+  github: monitorjbl
+  twitter: monitorjbl
+  stackoverflow: 
+    id: 484661
+    name: monitorjbl
   email_md5: 726351295ec82e145928582f595aa3aa
 
 rss_path: feed.xml
 categories_path: categories.html
 tags_path: tags.html
+
+repos:
+  -
+    id: excel-streaming-reader
+    name: Excel Streaming Reader
+    description: Streaming Excel reader based on Apache POI and optimized for low memory usage.
+    icon: assets/media/excel-icon.png
+  -
+    id: json-view
+    name: JSON View Serializer
+    description: Jackson-based JSON serializer for dynamic exclusion of class fields.
+    icon: assets/media/json-icon.png
+  -
+    id: pr-harmony
+    name: PR Harmony
+    description: Bitbucket/Stash plugin providing pull request reviewing rules to large teams.
+    icon: assets/media/pr-harmony-icon.png  
+  -
+    id: stash-token-auth
+    name: Stash Token Auth
+    description: Bitbucket/Stash plugin providing users token-based API access.
+    icon: assets/media/stash-token-auth-icon.png  
 
 # set it as url of an image
 # sidebar_background_image: https://www.dropbox.com/s/g9h23zrycedxtk5/sky.png?raw=1

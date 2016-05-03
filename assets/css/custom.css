@@ -1,3 +1,22 @@
 .logo {
   width: 125px;
 }
+
+.medium-icon {
+  width: 100px;
+}
+
+.repo a, .repo a:hover{
+  text-decoration: none;
+}
+
+.repo-list{
+  padding: 15px;
+}
+
+.row-height {
+  display: table;
+  table-layout: fixed;
+  height: 100%;
+  width: 100%;
+}
