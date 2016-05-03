@@ -28,3 +28,9 @@
 article.home h1{
   font-size:26px;
 }
+
+.stats{
+  font-size: 12px;
+  position: absolute;
+  right: 10px;
+}

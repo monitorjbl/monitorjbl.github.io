@@ -4,16 +4,17 @@
 
 <div class="row row-eq-height repo-list">
   <div class="row-height">
-  {% for repo in site.repos %}
-    <div class="col-md-3 well text-center repo">
-      <a href="https://github.com/monitorjbl/{{repo.id}}" class="repo">
+    {% for repo in site.repos %}
+    <div class="col-md-3 well text-center repo" repo-id="{{repo.id}}">
+      <span class="pull-right stats"></span>
+      <a href="https://github.com/monitorjbl/{{repo.id}}">
         <img src="{{repo.icon}}" class="medium-icon">
         <h3>{{repo.name}}</h3>
       </a>
 
       <p>{{repo.description}}</p>
     </div>
-  {% endfor %}
+    {% endfor %}
   </div>
 </div>
 
