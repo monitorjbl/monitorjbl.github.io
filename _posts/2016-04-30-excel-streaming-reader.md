@@ -1,4 +1,4 @@
-# 0.2.13 Release!
+# Excel Streaming Reader 0.2.13 Release
 
 Fixes:
 
