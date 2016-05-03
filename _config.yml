@@ -14,7 +14,7 @@ defaults:
     scope:
       path: "" # empty string for all files
     values:
-      title: Stuff
+      title: ""
 
 description: Developer!
 author:
