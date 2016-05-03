@@ -1,4 +1,4 @@
-# Excel Streaming Reader 1.0.0 Release
+# Excel Streaming Reader 1.0.0
 
 The library now supports POI Workbooks and Sheets, allowing for even easier integration into existing projects. Included in this new API is the ability to iterate over all sheets in the workbook ([#16](https://github.com/monitorjbl/excel-streaming-reader/issues/16)).
 
