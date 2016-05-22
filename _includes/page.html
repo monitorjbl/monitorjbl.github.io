@@ -1,11 +1,15 @@
-<div class="page-header">
-  <h1>Projects</h1>
+<div class="row">
+  <div class="col-xs-12">
+    <div class="page-header">
+      <h1>Projects</h1>
+    </div>
+  </div>
 </div>
 
 <div class="row row-eq-height repo-list">
   <div class="row-height">
     {% for repo in site.repos %}
-    <div class="col-xs-12 col-sm-6 col-sm-height well text-center repo" repo-id="{{repo.id}}">
+    <div class="col-height well text-center repo text-center" repo-id="{{repo.id}}">
       <div class="inside inside-full-height">
         <span class="pull-right stats"></span>
         <a href="https://github.com/monitorjbl/{{repo.id}}">
@@ -19,8 +23,16 @@
   </div>
 </div>
 
-<div class="page-header">
-  <h1>News</h1>
+<div class="row">
+  <div class="col-xs-12">
+    <div class="page-header">
+      <h1>News</h1>
+    </div>
+  </div>
 </div>
 
-{{ content }}
+<div class="row">
+  <div class="col-xs-12">
+    {{ content }}
+  </div>
+</div>
