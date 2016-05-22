@@ -4,5 +4,5 @@ The [PR Harmony](https://marketplace.atlassian.com/plugins/com.monitorjbl.plugin
 
 If anyone encounters any new issues as a result of the 4.6.1 upgrade, please open a new Github issue for the plugin:
 
-* PR Harmony: https://github.com/monitorjbl/pr-harmony/issues
-* Token Authenticator: https://github.com/monitorjbl/stash-token-auth/issues
+* PR Harmony: [https://github.com/monitorjbl/pr-harmony/issues](https://github.com/monitorjbl/pr-harmony/issues)
+* Token Authenticator: [https://github.com/monitorjbl/stash-token-auth/issues](https://github.com/monitorjbl/stash-token-auth/issues)
