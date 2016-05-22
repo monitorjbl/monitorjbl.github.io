@@ -55,6 +55,13 @@ article.home h1{
   width: 100%;
   margin-top: 0;
   margin-bottom: 0;
+
+  padding: 10px;
+  background-color: #f5f5f5;
+  border: 1px solid #e3e3e3;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.05);
+  box-shadow: inset 0 1px 1px rgba(0,0,0,0.05);
 }
 .content {
   padding: 12px 3px;
@@ -69,13 +76,11 @@ article.home h1{
   width: 100%;
 }
 
-.row-eq-height{
-}
-
 .col-height {
-  display: table-cell;
+  display: inline-flex;
   float: none;
   height: 100%;
+  padding: 3px;
 }
 .col-top {
   vertical-align: top;
@@ -89,8 +94,6 @@ article.home h1{
 
 @media (min-width: 480px) {
   .col-height {
-    display: inline-flex;
-    float: none;
     height: 25%;
     width: 100%;
   }
@@ -98,17 +101,13 @@ article.home h1{
 
 @media (min-width: 768px) {
   .col-height {
-    display: inline-flex;
-    float: none;
-    height: 50%;
+    height: 52%;
     width: 50%;
   }
 }
 
 @media (min-width: 992px) {
   .col-height {
-    display: inline-flex;
-    float: none;
     height: 50%;
     width: 50%;
   }
@@ -116,8 +115,6 @@ article.home h1{
 
 @media (min-width: 1200px) {
   .col-height {
-    display: table-cell;
-    float: none;
     height: 100%;
     width: 25%;
   }
