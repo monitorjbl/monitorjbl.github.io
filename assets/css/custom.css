@@ -79,7 +79,6 @@ article.home h1{
 .col-height {
   display: inline-flex;
   float: none;
-  height: 100%;
   padding: 3px;
 }
 .col-top {
