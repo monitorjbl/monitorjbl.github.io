@@ -1,11 +1,10 @@
 # PR Harmony 2.3.2
 
-The latest versions of [json-view](http://mvnrepository.com/artifact/com.monitorjbl/json-view/0.12) and [spring-json-view](http://mvnrepository.com/artifact/com.monitorjbl/spring-json-view/0.12) are now available in Maven Central!
+The latest version of [PR Harmony](https://marketplace.atlassian.com/plugins/com.monitorjbl.plugins.pr-harmony/server/overview) is now available on the Atlassian Marketplace!
 
 Fixes:
 
-* Support for BigDecimal serialization ([#23](https://github.com/monitorjbl/json-view/pull/23))
-* Support for @JsonBackReference ([#24](https://github.com/monitorjbl/json-view/pull/24))
-* Support for @JsonIgnoreProperties on fields ([#26](https://github.com/monitorjbl/json-view/pull/26))
+* Allowing groups of unlimited size ([#47](https://github.com/monitorjbl/pr-harmony/issues/47))
+* Ignoring missing users from configuration ([#49](https://github.com/monitorjbl/pr-harmony/issues/49))
 
-If you run into any issues after upgrading to the latest version of the library, please [open an issue](https://github.com/monitorjbl/json-view/issues) for it.
+If you run into any issues after upgrading to the latest version of the library, please [open an issue](https://github.com/monitorjbl/pr-harmony/issues) for it.
