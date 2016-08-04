@@ -4,7 +4,7 @@ The latest version of [Excel Streaming Reader](https://github.com/monitorjbl/exc
 
 Fixes:
 
-* Support for Sheet.isColumnHidden() and Row.getZeroHeight() ([#48](https://github.com/monitorjbl/excel-streaming-reader/pull/48))
-* Support for Row.getLastCellNum() ([#41](https://github.com/monitorjbl/excel-streaming-reader/pull/41))
+* Support for `Sheet.isColumnHidden()` and `Row.getZeroHeight()` ([#48](https://github.com/monitorjbl/excel-streaming-reader/pull/48))
+* Support for `Row.getLastCellNum()` ([#41](https://github.com/monitorjbl/excel-streaming-reader/pull/41))
 
 If you run into any issues after upgrading to the latest version of the library, please [open an issue](https://github.com/monitorjbl/excel-streaming-reader/issues) for it.
