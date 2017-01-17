@@ -6,7 +6,9 @@
     'code monkey',
     'not a null pointer',
     'dead beef',
-    'counts from zero'
+    'counts from zero',
+    'catchphrase!',
+    'wallet owner'
   ]
 
  function init() {
