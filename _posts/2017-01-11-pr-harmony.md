@@ -1,6 +1,6 @@
 # PR Harmony 2.3.5
 
-The latest version of [PR Harmony](https://github.com/monitorjbl/pr-harmony) is now available on the Atlassian Marketplace.
+The latest version of [PR Harmony](https://github.com/monitorjbl/pr-harmony) is now available on the Atlassian Marketplace. This release fixes an accidental issue introduced in 2.3.4.
 
 Fixes:
 
