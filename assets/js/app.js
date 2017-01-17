@@ -46,15 +46,15 @@
     $('#bio').html(quotes[Math.floor(Math.random() * quotes.length)]);
 
     //load repo stats (but let anything else go first, because this is less important)
-    setTimeout(function(){
-      $('.repo').each(function(i,v){
-        $.get('https://api.github.com/repos/monitorjbl/'+$(v).attr('repo-id'), function(response){
-          $(v).children('.stats').html(
-            '<i class="fa fa-star"></i> '+response.watchers+
-            '&nbsp;&nbsp;<i class="fa fa-code-fork"></i> '+response.forks);
-        });
-      });
-    }, 50);
+//    setTimeout(function(){
+//      $('.repo').each(function(i,v){
+//        $.get('https://api.github.com/repos/monitorjbl/'+$(v).attr('repo-id'), function(response){
+//          $(v).children('.stats').html(
+//            '<i class="fa fa-star"></i> '+response.watchers+
+//            '&nbsp;&nbsp;<i class="fa fa-code-fork"></i> '+response.forks);
+//        });
+//      });
+//    }, 50);
   }
 
   // run init on document ready
