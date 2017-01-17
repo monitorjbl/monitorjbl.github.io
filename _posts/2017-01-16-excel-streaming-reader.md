@@ -4,7 +4,7 @@ The latest version of [Excel Streaming Reader](https://github.com/monitorjbl/exc
 
 Fixes:
 
-* Support for Workbook.isSheetHidden() and Workbook.isSheetVeryHidden() ([](https://github.com/monitorjbl/excel-streaming-reader/issues/26))
+* Support for Workbook.isSheetHidden() and Workbook.isSheetVeryHidden() ([#26](https://github.com/monitorjbl/excel-streaming-reader/issues/26))
 * Support for Row.getFirstCellNum() ([#49](https://github.com/monitorjbl/excel-streaming-reader/issues/49))
 * Support for StreamingRow.getPhysicalNumberOfCells() ([#61](https://github.com/monitorjbl/excel-streaming-reader/pull/61))
 * Support for Sheet.getLastRowNum() ([#56](https://github.com/monitorjbl/excel-streaming-reader/pull/56))
